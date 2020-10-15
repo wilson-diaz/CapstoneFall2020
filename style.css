@@ -1,0 +1,10 @@
+body {
+    background-color: #022140;
+    color: #90CCF4;
+}
+
+#img-splash {
+    object-fit: cover;
+    width: 100%;
+    height: 500px;
+}
