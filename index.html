@@ -14,6 +14,7 @@
 
   <!-- My CSS -->
   <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="images/code-solid.svg">
 
   <title>Wilson Diaz</title>
 </head>
@@ -36,43 +37,45 @@
   <br>
   <div class="container-fluid">
 
-    <h1>Welcome to my site</h1>
-    <div>
-      <p>
-        I am an Information Science & Technology student at Temple University.
+    <div class="jumbotron jumbotron-fluid bg-dark p-5">
+      <h1 class="display-4">Welcome to my site</h1>
+      <p class="lead">
+        I am an Information Science & Technology student at Temple University. <br>
         My interests in the computing field include: Web Development, DevOps, and Machine Learning.
         Navigate to the sections above to learn more about me!
       </p>
-      <img id="img-splash" class="mx-auto" src="images/code.jpg" >
     </div>
 
+    <img id="img-splash" class="mx-auto" src="images/code.jpg" >
+    
+    <br>
     <br>
 
-    <div class="row">
-      <div class="col-sm">
-        <h4>Coding Languages</h4>
-        <ul>
-          <li>Python</li>
-          <li>C#</li>
-          <li>Java</li>
-          <li>JavaScript</li>
+    <div class="row justify-content-around">
+      <div class="col-sm-3 card bg-dark">
+        <h4 class="card-header">Coding Languages</h4>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item bg-dark">Python</li>
+          <li class="list-group-item bg-dark">C#</li>
+          <li class="list-group-item bg-dark">Java</li>
+          <li class="list-group-item bg-dark">JavaScript</li>
         </ul>
       </div>
-      <div class="col-sm">
-        <h4>Coursework</h4>
-        <ul>
-          <li>Data Structures</li>
-          <li>Database Management Systems</li>
-          <li>Component-Based Software Design</li>
-          <li>Client-Side Scripting for the Web</li>
-          <li>Server-Side Scripting for the Web</li>
+      <div class="col-sm-3 card bg-dark">
+        <h4 class="card-header">Coursework</h4>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item bg-dark">Data Structures</li>
+          <li class="list-group-item bg-dark">Database Management Systems</li>
+          <li class="list-group-item bg-dark">Component-Based Software Design</li>
+          <li class="list-group-item bg-dark">Client-Side Scripting for the Web</li>
+          <li class="list-group-item bg-dark">Server-Side Scripting for the Web</li>
         </ul>
       </div>
-      <div class="col-sm">
-        <h4>Extracurricular Experiences</h4>
-        <ul>
-          <li>Attended ACM Richard Tapia Conference 2019 and 2020</li>
-          <li>Owl Ambassador for the College of Science & Technology</li>
+      <div class="col-sm-3 card bg-dark">
+        <h4 class="card-header">Extracurricular Experiences</h4>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item bg-dark">Attended ACM Richard Tapia Conference 2019 and 2020</li>
+          <li class="list-group-item bg-dark">Owl Ambassador for the College of Science & Technology</li>
         </ul>
       </div>
     </div>
@@ -84,10 +87,16 @@
     <ul class="nav justify-content-center">
       <span class="navbar-brand">Wilson Diaz</span>
       <li class="nav-item">
-        <a class="nav-link text-light" href="https://www.linkedin.com/in/wilson-diaz/">LinkedIn</a>
+        
+        <a class="nav-link text-light" href="https://www.linkedin.com/in/wilson-diaz/">
+          <img src="images/linkedin-brands.svg" height="25px" width="25px" 
+          class="d-inline-block align-top"> LinkedIn
+        </a>
       </li>
       <li class="nav-item text-light">
-        <a class="nav-link text-light" href="https://github.com/wilson-diaz">GitHub</a>
+        <a class="nav-link text-light" href="https://github.com/wilson-diaz">
+          <img src="images/github-square-brands.svg" height="25px" width="25px" 
+          class="d-inline-block align-top"> GitHub</a>
       </li>
     </ul>
   </div>
