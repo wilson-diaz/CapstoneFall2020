@@ -14,7 +14,7 @@
 
     <!-- My CSS -->
     <link rel="stylesheet" href="style.css">
-
+    <link rel="icon" href="images/code-solid.svg">
     <title>Wilson Diaz</title>
 </head>
 
@@ -36,44 +36,46 @@
     <br>
     <div class="container-fluid">
 
-        <h1>About me</h1>
-        <div>
-            <p>
+        <div class="jumbotron jumbotron-fluid bg-dark p-5">
+            <h1 class="display-4">About me</h1>
+            <p class="lead">
                 Get to know me below!
             </p>
-            <img id="img-splash" class="mx-auto" src="images/bass.jpg">
         </div>
 
+        <img id="img-splash" class="mx-auto" src="images/bass.jpg">
+        
+        <br>
         <br>
 
-        <div class="row">
-            <div class="col-sm">
-                <h4>Education</h4>
-                <ul>
-                    <li>College: Temple University</li>
-                    <li>Major: Information Science & Technology</li>
-                    <li>Minor: French</li>
-                    <li>Year: Senior</li>
+        <div class="row justify-content-around">
+            <div class="col-sm-3 card bg-dark">
+                <h4 class="card-header">Education</h4>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item bg-dark">College: Temple University</li>
+                    <li class="list-group-item bg-dark">Major: Information Science & Technology</li>
+                    <li class="list-group-item bg-dark">Minor: French</li>
+                    <li class="list-group-item bg-dark">Year: Senior</li>
                 </ul>
             </div>
-            <div class="col-sm">
-                <h4>Hobbies</h4>
-                <ul>
-                    <li>Listening to music</li>
-                    <li>Practicing guitar and bass</li>
-                    <li>Catching up on classic movies I haven't seen</li>
-                    <li>Watching anime</li>
-                    <li>Learning French</li>
+            <div class="col-sm-3 card bg-dark">
+                <h4 class="card-header">Hobbies</h4>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item bg-dark">Listening to music</li>
+                    <li class="list-group-item bg-dark">Practicing guitar and bass</li>
+                    <li class="list-group-item bg-dark">Catching up on classic movies I haven't seen</li>
+                    <li class="list-group-item bg-dark">Watching anime</li>
+                    <li class="list-group-item bg-dark">Learning French</li>
                 </ul>
             </div>
-            <div class="col-sm">
-                <h4>Favorites</h4>
-                <ul>
-                    <li>Color: Blue</li>
-                    <li>Food: Surf 'n' Turf</li>
-                    <li>Dessert: Three Milks Cake</li>
-                    <li>Band: Weezer</li>
-                    <li>Movie: Blade Runner</li>
+            <div class="col-sm-3 card bg-dark">
+                <h4 class="card-header">Favorites</h4>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item bg-dark">Color: Blue</li>
+                    <li class="list-group-item bg-dark">Food: Surf 'n' Turf</li>
+                    <li class="list-group-item bg-dark">Dessert: Three Milks Cake</li>
+                    <li class="list-group-item bg-dark">Band: Weezer</li>
+                    <li class="list-group-item bg-dark">Movie: Blade Runner</li>
                 </ul>
             </div>
         </div>
@@ -85,10 +87,14 @@
         <ul class="nav justify-content-center">
             <span class="navbar-brand">Wilson Diaz</span>
             <li class="nav-item">
-                <a class="nav-link text-light" href="https://www.linkedin.com/in/wilson-diaz/">LinkedIn</a>
+                <a class="nav-link text-light" href="https://www.linkedin.com/in/wilson-diaz/">
+                    <img src="images/linkedin-brands.svg" height="25px" width="25px"
+                    class="d-inline-block align-top"> LinkedIn</a>
             </li>
             <li class="nav-item text-light">
-                <a class="nav-link text-light" href="https://github.com/wilson-diaz">GitHub</a>
+                <a class="nav-link text-light" href="https://github.com/wilson-diaz">
+                    <img src="images/github-square-brands.svg" height="25px" width="25px"
+                    class="d-inline-block align-top"> GitHub</a>
             </li>
         </ul>
     </div>
